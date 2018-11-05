@@ -1,0 +1,746 @@
+@font-face
+{
+	font-family: 'robotoregular';
+	src: url('fonts/Roboto-Regular.ttf');	
+}
+
+@font-face
+{
+	font-family: 'robotobold';
+	src: url('fonts/Roboto-Bold.ttf');
+}
+
+@font-face
+{
+	font-family: 'fontawesome';
+	src: url('fonts/fontawesome-webfont.eot'),
+		 url('fonts/fontawesome-webfont.svg'),
+		 url('fonts/fontawesome-webfont.ttf'),
+		 url('fonts/fontawesome-webfont.woff'),
+		 url('fonts/fontawesome.otf');
+}
+
+@font-face
+{
+	font-family: 'glyphicons';
+	src: url('glyphicons-halflings-regular.eot'),
+		 url('glyphicons-halflings-regular.svg'),
+		 url('glyphicons-halflings-regular.ttf'),
+		 url('glyphicons-halflings-regular.woff');
+}
+
+a
+{
+	text-decoration: none;
+}
+
+body
+{
+	padding: 0;
+	margin: 0;
+}
+
+header
+{
+	padding: 19px 0;
+	text-align: justify;
+	display: flex;
+	justify-content: space-around;
+	position:fixed;
+	top:0;
+	width: 100%;
+	background-color: white;
+	z-index: 1;
+	box-shadow: 0 0 4px silver;
+}
+
+.entete 
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin:0;
+	padding: 0;
+
+}
+
+.entete li
+{
+	padding-top: 0;
+	padding-bottom:0;
+
+}
+
+.entete li
+{
+	margin: 0 15px 0 15px;
+}
+
+.entete a
+{
+	color: grey;
+	text-decoration: none;
+	font-family: robotoregular;
+	padding: 15px 0 15px 0;
+}
+
+.entete li:hover
+{
+	color: black;
+	border-top: 3px #28abd1 solid;
+}
+
+nav
+{
+	padding: 20px;
+}
+
+#slider
+{
+width: 100%;
+}
+
+figure
+{
+	margin: 0;
+}
+
+.sectionslider
+{
+	position: relative;
+	top: 100px;
+}
+
+#infos
+{
+	width: 100%;
+}
+
+#infobouton
+{
+	margin-top: 2em;
+}
+
+#webagency
+{
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+.slogan
+{
+	font-family: robotoregular;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.slogan strong
+{
+	color: #3491b2;
+}
+
+.devise
+{
+	font-family: robotoregular;
+	font-size: 17px;
+	color: white;
+}
+
+#boutonslider
+{
+	 font-family: robotoregular;
+	 font-size: 18px;
+	 padding: 9px 15px;
+	 text-align: center;
+	 color: white;
+	 background: #3491b2;
+ 	 border-radius: 3px;
+ 	 margin: 0;
+ 	 text-decoration: none;
+}
+
+#arrow .fa
+{
+	font-size: 30px;
+	color: white;
+}
+
+
+.fa-angle-left
+{
+	position: absolute;
+	top: 50%; 
+	left: 1%;
+}
+
+.fa-angle-right
+{
+	position: absolute;
+	top: 50%;
+	right: 1%;
+}
+
+.maintitle
+{
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+.contentdesign
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.listdesign
+{
+	max-width: 40em;
+	min-width: 20em;
+	width: 40em;
+	max-height: 40em;
+	min-height: 15em;
+}
+
+#mainfeature
+{
+	text-align: center;
+}
+
+#sample
+{
+width: 90%;
+margin: 0 auto;
+}
+
+h1
+{
+	font-family: robotobold;
+	font-size: 1.7em;
+
+}
+
+h2
+{
+	font-family: robotobold;
+	font-size: 1.1em;
+}
+
+p
+{
+	font-family: robotoregular;
+	font-size: 0.9em;
+	color: grey;
+}
+
+h3
+{
+	font-family: robotobold;
+	font-size: 1em;
+	margin-top: 0;
+}
+
+hr
+{
+	width: 15%;
+	color: silver;
+	padding: 0;
+	position: relative;
+}
+
+hr:after 
+{
+	font-family: fontawesome;
+	content: "\f111";
+	color: #3491b2;
+	position: absolute;
+	text-align: center;
+	top: -13px;
+	border: white 4px solid;
+	border-radius: 50%;
+	left: 47%;
+}
+
+ul
+{
+	padding: 0;
+}
+
+li
+{
+	list-style: none;
+	clear: both;
+
+}
+
+i
+{
+	float: left;
+	font-size: 1.7em;
+	padding: 0.5em;
+	flex-shrink: 2;
+}
+
+.chip
+{
+	float: right;
+	width: 85%;
+}
+
+.listdesign .fa
+{
+	border: solid silver 1px;  
+	border-radius: 50px;
+	position: relative;
+	margin-top: 50px;
+    color: #4eb1d5;
+}
+.listdesign .fa:after
+{
+	font-family: fontawesome;
+	content: "\f111";
+	color: #4eb1d5;
+	position: absolute;
+	text-align: center;
+	font-size: 0.6em;
+	left: 43px;
+	bottom: 14px;
+	border: white 5px solid;
+	border-radius: 50%;
+	background: white;
+}
+
+.fa-chart-pie
+{
+font-size: 1.6em;
+}
+
+.sectionservices
+{
+	margin-top: 13em;
+	margin-bottom: 6em;
+}
+
+.sectionnosprojets
+{
+	background-color: #f5f5f5;
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-bottom: 6em;
+}
+
+.projettitle
+{
+	padding-top: 5em;
+	padding-bottom: 3em; 
+	text-align: center;
+}
+
+.projetmenu 
+{
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.projetmenu li
+{
+	font-family: robotoregular;
+	 font-size: 18px;
+	 padding: 9px 15px;
+	 text-align: center;
+	 color: #7a7d81;
+	 background: #e5e5e5;
+ 	 margin: 0;
+ 	 position: relative;
+ 	 text-decoration:none;
+     display: inline;
+}
+
+
+.projetmenu a:hover
+{
+	color: white;
+	border-bottom: solid 4px #349ec2;
+}
+
+.projetmenu a
+{
+	text-decoration: none;
+    color: grey;
+}
+
+.projetmenu li:first-child 
+{
+    border-radius: 5px 0 0 5px;
+    background-color: #349ec2;
+    color: white;
+    border-bottom: 3px solid #187ea1;
+}
+
+.projetmenu li:first-child a
+{
+	color: white;
+}
+
+.projetmenu li:first-child:after
+{
+	position: absolute;
+	font-family: fontawesome;
+	content: "\f0d7"; 
+	color: #187ea1;
+	top: 90%;
+	left: 46%;
+	text-decoration: none;
+}
+.projetmenu li:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.projetmenu li:hover {
+    background-color: #349ec2;
+    border-bottom: 3px solid #187ea1
+}
+
+.projetmenu li:hover:after
+{
+	position: absolute;
+	font-family: fontawesome;
+	content: "\f0d7"; 
+	color: #187ea1;
+	top: 90%;
+	left: 46%;
+	text-decoration: none;
+}
+
+ .worksimg
+ {
+ 	width: calc(100% / 4);
+ 	padding: 1.2em 1.2em 1em 1.2em;
+ }
+
+
+ .worksimg img
+ {
+ 	width: 100%;
+ }
+
+ #portfolio
+ {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+ }
+
+figcaption
+{
+ 	position: absolute;
+ 	background-color: black;
+ 	width: 100%;
+ 	bottom: 5px;
+ 	text-align: left;
+ 	height: 3.8em;
+ 	color: white;
+ 	display: none;
+ }
+
+ .worksimg:hover figcaption
+ {
+ 	background:rgba(0,0,0,0.5);
+ 	display: block;
+ }
+
+figure
+{
+	position: relative;
+}
+ .worksimg .fa:after
+ {
+ 	font-family: fontawesome;
+ 	content: "\f06e";
+ }
+
+.fa-eye
+{
+	color: white;
+	right: 5%;
+	position: absolute;
+	bottom: 33px;
+	border: solid white 3px;
+	border-radius: 50%;
+	background-color: #4eb1d5;
+}
+
+.sectionmap
+{
+	padding-top: 8em;
+	padding-bottom: 8em;
+	position: relative;
+}
+
+label
+{
+	display: none;
+}
+#contactinfo
+{
+	position: absolute;
+	width: 25%;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 2em;
+	padding: 2em;
+	left: 60%;
+	top: 13%;
+}
+
+input
+{
+	padding: 7px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 1em;
+	font-family: robotoregular;
+	width: 95%
+}
+
+#submit
+{
+	font-family: robotoregular;
+	color:white;
+	background-color: #3491b2;
+	border-radius: 3px;
+	width: 30%;
+}
+
+textarea
+{
+	width: 99%;
+}
+
+
+fieldset
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+#contactinfo h1
+{
+	margin-top: 0;
+}
+
+#overlay
+{
+	height: 70%;
+	width:100%;
+	position: absolute;
+	top: 8em;
+	bottom: 0;
+	background-color: rgba(12, 125, 234, 0.23);
+}
+
+figcaption p, figcaption h3
+{
+	margin: 7px 0px 0px 19px;
+	color: white;
+}
+
+iframe
+{
+	width: 100%;
+	height: 600px;
+
+}
+.worksimg 
+{
+	width: calc(100%/4 - 40px);
+	float: left;
+	padding: 17px 20px;
+}
+
+
+address
+{
+	font-family: robotoregular;
+	font-size: 0.9em;
+	font-style: normal;
+	margin-bottom: 10px;
+}
+
+address strong:first-child
+{
+	font-family: robotobold;
+	font-size: 1.7em;
+}
+
+@media screen and (max-width: 959px)
+{
+  
+  header
+  {
+  	display: inherit;
+  	text-align: center;
+  	padding: 0;
+  }
+
+  #logo
+  {
+  	text-align: center;
+ 	position: relative;
+ 	margin: 0 auto;
+ 	padding-top: 15px;
+  }
+
+  nav
+  {
+  	padding: 8px;
+  }
+
+  nav .entete 
+  {
+  	flex-direction: column;
+  	position: absolute;
+  	display: none;
+  }
+
+  .sectionslider
+  {
+  	display: none;
+  }
+
+  .sectionservices
+  {
+  	margin-top: 9em;
+  }
+  
+  .maintitle
+  {
+  	position:relative;
+  }
+
+  #sample
+  {
+  	text-align: center;
+  }
+
+  .maintitle hr.separation::after
+  {
+  	left: 14px;
+  }
+
+
+
+  hr::after
+  {
+  	left: 12px;
+  }
+
+  .contentdesign
+  {
+  	display: block;
+  }
+
+  .listdesign
+  {
+  	width: 100%;
+  	max-width: 100%;
+  }
+
+  .listdesign .fa
+  {
+  	margin-left: 3px;
+	margin-top: 18%;
+  }
+
+  .chip
+  {
+  	width: 75%;
+  	padding: 5px;
+  }
+
+  .projettitle
+  {
+  	padding-top: 2em;
+  	padding-bottom: 1em;
+  }
+
+  .sectionnosprojets
+  {
+  	margin-top: 12em;
+  	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 4em;
+  }
+
+  #nosprojets hr::after
+  {
+  	left: 26%;
+  }
+
+  ul.projetmenu 
+  {
+    margin: 20px 0;
+  }
+
+  .projetmenu li
+  {
+  	padding: 9px 0;
+  }
+  .worksbutton 
+  {
+
+    font-size: 12px;
+    padding: 9px 10px;
+
+  }
+
+  #portfolio
+  {
+  	display: block;
+  }
+
+  .worksimg
+  {
+  	width: 100%;
+  	padding: 0;
+  	float: none;
+  }
+
+  .sectionmap
+  {
+  	padding-top: 0;
+  	padding-bottom: 2em;
+  }
+
+  #contactinfo
+  {
+  	position: inherit;
+  	margin: 0;
+  	padding: 0;
+  	width: 89%;
+  	left:0;
+  	margin: 1em;
+  }
+ 
+ figcaption
+ {
+ 	display: block;
+ 	background-color: rgba(0, 0, 0, 0.6);
+ }
+
+ a
+ {
+ 	text-decoration: none;
+ }
+
+ #overlay
+ {
+ 	height: 51%;
+ 	top: 0em;
+ }
+}
